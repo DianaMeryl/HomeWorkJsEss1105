@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group {
+    margin: 4px 10px;
+    display: inline-block;
+}
+
+.form-group label {
+    display: block;
+}
+
+[type=button] {
+    margin: 10px;
+}
+
+table {
+    margin: 10px
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+td,
+th {
+    padding: 8px;
+}

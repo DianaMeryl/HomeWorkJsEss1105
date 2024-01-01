@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#userList {
+    width: 200px;
+    display: inline-block;
+}
+
+#userList>li {
+    cursor: pointer;
+    list-style: none;
+}
+
+#userList>li:hover {
+    background-color: orange;
+}
+
+#userList li.selected {
+    background-color: lightcoral;
+}
+
+#output {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 10px;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 300px;
+    min-height: 180px;
+}
+
+.form-group {
+    margin-bottom: 4px;
+}
+
+.form-group label {
+    width: 85px;
+    display: inline-block;
+}
+
+.form-group input {
+    width: 200px;
+}

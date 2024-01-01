@@ -1,0 +1,8 @@
+.form-grop {
+    margin: 4px;
+}
+
+.form-grop label {
+    width: 75px;
+    display: inline-block;
+}
